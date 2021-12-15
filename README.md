@@ -10,11 +10,10 @@ of SOLID and has three levels architecture:
 2. Application layer (service)
 3. Presentation layer (controllers).
 
-This project provides the ability to authenticate the user as a driver, add cars and data on their manufacturers. It is
-also possible to add drivers for the correct cars and display the available data from the database.
+This project provides the ability to authenticate the user as a driver, add cars and manufacturers. It is
+also possible to add drivers for cars and display all available info about drivers, cars, and manufacturers.
 
 ## Used technologies: :technologist:
-
 - Maven
 - Maven Checkstyle Plugin
 - MySQL
@@ -32,9 +31,6 @@ also possible to add drivers for the correct cars and display the available data
 2. Install MySQL and MySQL Workbench
 3. You can use the script from init_db.sql in MySQL Workbench or can create schema by using
 diagram of DB from the picture below by yourself.
-4. In the ConnectionUtil change the constant field data properties to the ones you
+4. In the ConnectionUtil change data properties to the ones you
 specified when installing MySQL
-5. Starting tomcat, click on "Register" to add a new driver.
-6. In the log4j2.xml at line 7 change fileName path with absolute path to file
-
-![Diagram](https://mate-academy-images.s3.eu-central-1.amazonaws.com/car_diagram_db_2_4f50942103.png)
+6. In the log4j2.xml change fileName path with the absolute path to file
