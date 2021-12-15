@@ -14,7 +14,6 @@ also possible to add drivers for cars and display all available info about drive
 
 ## Used technologies: :technologist:
 - Maven
-- Maven Checkstyle Plugin
 - MySQL
 - JDBC
 - Apache Tomcat (v9.0.50)
