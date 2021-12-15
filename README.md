@@ -26,7 +26,7 @@ also possible to add drivers for cars and display all available info about drive
 ## Instructions for setup :heavy_check_mark:
 1. Configure Apache Tomcat (v9.0.50)
 2. Install MySQL and MySQL Workbench
-3. You can use the script from init_db.sql in MySQL Workbench..
+3. Create a schema by using the script from init_db.sql in MySQL Workbench
 4. In the ConnectionUtil change data properties to the ones you
 specified when installing MySQL
 5. In the log4j2.xml change fileName path with the absolute path to file
