@@ -6,32 +6,21 @@
 <head>
     <title>Login</title>
 </head>
-<body>
-<form method="post" id="driver" action="${pageContext.request.contextPath}/login"></form>
-<h1 class="table_dark">Login:</h1>
-<table border="1" class="table_dark">
-    <tr>
-        <th>User Name</th>
-        <th>Password</th>
-        <th>Login</th>
-    </tr>
-    <tr>
-        <td>
-            <input type="text" name="login"  form="driver" required>
-        </td>
-        <td>
-            <input type="password" name="password" form="driver" required>
-        </td>
-        <td>
-            <button type="submit" form="driver">Login</button>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <h4><a href="${pageContext.request.contextPath}/drivers/add">Register</a> </h4>
-        </td>
-    </tr>
-</table>
-<h4 style="color: red">${errorMsg}</h4>
+<body border="1" class="table_dark">
+<h1 class="table_dark">Login page</h1>
+<form method="post" onsubmit="return check()" saction="${pageContext.request.contextPath}/login">
+    <a style="color: black; font-size: 20px; text-align: center"> Please enter your login:</a>
+    <input type="text" name="login" required placeholder="login"><br>
+    <a style="color: black; font-size: 20px; text-align: center"> Please enter your password:</a>
+    <input type="password" name="password" required placeholder="password"><br>
+    <button style="color: #FEF4AB;font-size: 20px; background-color: #000000;border: none" type="submit">
+        Log in
+    </button>
+    <button style="color: #000000;font-size: 20px; background-color: #000000;border: none" type="submit">
+        <a style="text-decoration: none; color: #FEF4AB" href="${pageContext.request.contextPath}/drivers/add">
+            Sign in
+        </a>
+    </button>
+</form>
 </body>
 </html>
