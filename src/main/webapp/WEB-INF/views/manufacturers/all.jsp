@@ -7,7 +7,7 @@
 <head>
     <title>All manufacturers</title>
 </head>
-<body>
+<body class="table_dark">
 <h1 class="table_dark">All manufacturers:</h1>
 <table border="1" class="table_dark">
     <tr>
